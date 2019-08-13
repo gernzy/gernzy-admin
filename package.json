@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "vue-cli-service test:unit --watch"
+    "test": "vue-cli-service test:unit --watch",
+    "lint-staged": "lint-staged *.js"
   },
   "dependencies": {
     "babel-eslint": "^10.0.2",
