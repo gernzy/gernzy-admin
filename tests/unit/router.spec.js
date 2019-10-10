@@ -13,5 +13,6 @@ describe("Router", () => {
     const wrapper = mount(App, { localVue, router })
     router.push('/login');
     expect(wrapper.find(Login).exists()).toBe(true)
+
   });
 });
